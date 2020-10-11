@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Declare the char type-->
+    <meta charset="utf-8" />
+
+    <!--Describe the author of the site-->
+    <meta name="Author" content="JustBelieveMe, HSJ, Groooot" />
+
+    <!--Describe the use of the site-->
+    <meta name="description" content="To introduce the professor Alpha(Jui-Fa, Chen), Tamkang University" />
+
+    <!-- the website title -->
+    <title>TKU professor</title>
+
+    <!--link the css file to this html file-->
+    <link rel="stylesheet" type="text/css" href="./css/basic.css" />
+    <link rel="stylesheet" type="text/css" href="./css/cooperation.css" />
+
+    <script src="./js/basic.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <!-- to show the school badge and school logo on the head of the site -->
+        <a href="http://www.tku.edu.tw/" target="_blank">
+            <img id="tku_badge" src="http://www.tku.edu.tw/about/leaders/President/images/logo-index.png" title="tku_badge" alt="淡江大學_校徽" />
+            <img id="tku_word" src="http://photo.tku.edu.tw/getjpg.cshtml?im=78CE379247A25344E3F33738FAEB106B38C7E1C9AA59765A60A76E031C8322A0189F42601AAFA8EFDAEEB705EBEBF9D0BE0CF8491DC0DD91" title="tku_words" alt="淡江大學_文字樣" />
+        </a>
+        <!-- to show the badge and name of CSIE-->
+        <a href="http://www.csie.tku.edu.tw/main.php" target="_blank">
+            <img id="CSIE_badge" src="https://i.imgur.com/RvEQy5I.png" title="CSIE_badge" alt="資工_系徽" />
+            <img id="CSIE_word" src="https://i.imgur.com/aiCjdem.png" title="CSIE_word" alt="資工_文字樣" />
+        </a>
+
+
+    </div>
+
+    <div id="nav">
+
+        <span id="sidenav_icon" onclick="openNav()">&#9776;</span>
+        <div id="sidenav">
+            <ul>
+                <li><span id="sidenav_close_icon" onclick="closeNav()">&#9776;</span></li>
+                <li><a class="active" href="./index.html#header" onclick="closeNav()">網站首頁</a></li>
+                <li><a href="./index.html#introduction" onclick="closeNav()">個人簡介</a></li>
+                <li class="dropdown">
+                    <a href="./paper_page.html#journal" class="dropbtn" onclick="closeNav()">期刊論文</a>
+                    <div class="dropdown-content">
+                        <a href="./paper_page.html#journal-1" onclick="closeNav()">87-95年</a>
+                        <a href="./paper_page.html#journal-2" onclick="closeNav()">96-105年</a>
+                    </div>
+                </li>
+                <li><a href="./paper_page.html#books" onclick="closeNav()">專書著作</a></li>
+                <li><a href="./research_page.html#personal" onclick="closeNav()">個人研究</a></li>
+                <li><a href="./research_page.html#project" onclick="closeNav()">研究計畫</a></li>
+                <li><a href="./production_planning_page.html" onclick="closeNav()">產學計畫</a></li>
+                <li class="dropdown">
+                    <a href="./paper_page.html#seminar" class="dropbtn" onclick="closeNav()">研討會論文</a>
+                    <div class="dropdown-content">
+                        <a href="./paper_page.html#seminar-1" onclick="closeNav()">81-91年</a>
+                        <a href="./paper_page.html#seminar-2" onclick="closeNav()">92-102年</a>
+                    </div>
+                </li>
+                <li><a href="./cooperation.html" onclick="closeNav()">分工表</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="article">
+        <br>
+        <br>
+        <br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>姓名</td>
+                    <td>學號</td>
+                    <td>分工內容</td>
+                    <td>簽名欄</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>王俊武</td>
+                    <td>406410224</td>
+                    <td>網頁架構、css、RWD及js檔部分，約佔38%</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>黃士哲</td>
+                    <td>406410281</td>
+                    <td>網頁架構、css，測試網頁及js檔部分，約佔37%</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>李宜峻</td>
+                    <td>406410257</td>
+                    <td>網頁架構、部分css，測試網頁及RWD檔部分，<del>買便當</del>，約佔25%</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <div id="section">
+
+    </div>
+
+    <div id="footer">
+        <br>
+        <br>
+        <pre><a id="footer_link_TKU" href="https://www.tku.edu.tw/" target="blank">淡江大學入口</a>   <b>|</b>   <a id="footer_link_CSIE" href="http://www.csie.tku.edu.tw/main.php" target="blank">淡江資工網站</a></pre>
+        <br>
+        <br>
+        <p>Copyright © 2019 JustBelieveMe(王俊武), HSJ(黃士哲), Groooot(李宜峻). All rights reserved.</p>
+        <br>
+    </div>
+
+
+
+</body>
+
+</html>

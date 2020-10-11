@@ -1,0 +1,21 @@
+html,
+body {
+    height: 85%;
+}
+
+#article {
+    background-color: rgba(43, 50, 58, 0.774);
+    color: white;
+    height: 100%;
+    padding: 5% 0% 0% 30%;
+}
+
+del {
+    text-decoration-color: orange;
+}
+
+@media screen and (min-width: 120px) and (max-width: 700px) {
+    #article {
+        padding: 5% 5% 0% 5%;
+    }
+}
